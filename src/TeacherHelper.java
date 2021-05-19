@@ -3,7 +3,7 @@ import java.util.Scanner;
 
 public class TeacherHelper {
 
-	// vai sair por que é uma constante public static final double horaAula = 17.50;
+	// vai sair por que é uma constante e entrou uma variável (horaAula) --- public static final double horaAula = 17.50;
 	
 	public static void main(String[] args) {
 		int opcao=0, numeroAulas, qtdeAlunos, i;
@@ -61,6 +61,11 @@ public class TeacherHelper {
 			case 3:
 				
 				switch(gerador.nextInt(7)) {
+				
+				case 0:
+					System.out.println("Você é o responsável pelos alunos perderem os cabelos com fatorial!");
+					break;
+				
 				case 1:
 					System.out.println("Você é um professor incrível!");
 					break;
